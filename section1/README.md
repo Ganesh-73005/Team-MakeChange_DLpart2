@@ -27,20 +27,20 @@ This section focuses on creating a dataset of blog articles and their summaries 
    import networkx as nx
    import csv
 
-   # Download NLTK data
+   #download NLTK data
    nltk.download('punkt')
    nltk.download('stopwords')
 
-   # Load the dataset
+   #load the dataset
    df = pd.read_csv('/content/drive/MyDrive/medium_articles.csv')
    df = df[['title', 'text']].drop_duplicates()
 
-   # Define the summarization function
+   #define the summarization function
    def generateSummary(blog):
-       # (Copy the entire generateSummary function from the provided code)
+       # code here
        # ...
 
-   # Generate summaries and save to CSV
+   #generate summaries and save to CSV
    filename = "articlesSet.csv"
    fields = ['title', 'summary', 'content']
 
@@ -61,7 +61,7 @@ This section focuses on creating a dataset of blog articles and their summaries 
 
 ## Prerequisites
 
-- Python 3.7+
+- Python 3+
 - Google Colab (with access to Google Drive)
 - Required libraries: numpy, pandas, nltk, gensim, scipy, networkx
 
