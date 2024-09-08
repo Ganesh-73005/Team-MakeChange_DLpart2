@@ -1,2 +1,2 @@
-## Blog Generating Project
+## Blog Generation Project
 # [Section-1](./section1)
